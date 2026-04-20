@@ -1,0 +1,25 @@
+{
+  "name": "kannada-to-english-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && node index.js\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepthiS0808/Kannada-to-English-Translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DeepthiS0808/Kannada-to-English-Translator/issues"
+  },
+  "homepage": "https://github.com/DeepthiS0808/Kannada-to-English-Translator#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
